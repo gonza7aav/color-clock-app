@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+
+body {
+  /* to use all the page */
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+
+  /* to be able to center */
+  position: relative;
+
+  /* default background color */
+  background-color: #333333;
+
+  /* fade effect */
+  transition: background-color 500ms ease-in-out;
+
+  /* global properties */
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  color: #fafafa;
+}
+
+.Clock {
+  padding: 0.25rem 0.5rem;
+  font-size: 10vw;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.message-box {
+  width: 75vw;
+  max-width: 25ch;
+  padding: 2.5vh 5vw;
+
+  /* make elevation */
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.message-box h1 {
+  font-size: 1.25rem;
+}
+
+.message-box p {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 425px) {
+  .message-box {
+    max-width: 35ch;
+  }
+}
+
+@media (min-width: 520px) {
+  .message-box {
+    max-width: 45ch;
+  }
+
+  .message-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .message-box p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .message-box h1 {
+    font-size: 2rem;
+  }
+}

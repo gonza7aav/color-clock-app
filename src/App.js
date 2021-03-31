@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import Clock from "./components/Clock";
 
-function App() {
+const getTime = (date = new Date()) => {
+  return {
+    hours: date.getHours(),
+    minutes: date.getMinutes(),
+    seconds: date.getSeconds(),
+  };
+};
+
+const changeBackground = ({ red, green, blue }) => {
+  document.body.style.backgroundColor = `rgb(${red},${green},${blue})`;
+};
+
+const App = () => {
+  const [time, setTime] = useState(getTime());
+
+  const update = () => {
+    let now = getTime();
+    setTime(now);
+
+    changeBackground({
+      red: now.hours,
+      green: now.minutes,
+      blue: now.seconds,
+    });
+  };
+
+  useEffect(() => {
+    let now = new Date();
+    let ms = now.getMilliseconds();
+
+    // with this the interval start at 0 milliseconds
+    setTimeout(() => {
+      setInterval(() => {
+        update();
+      }, 1000);
+    }, 1000 - ms);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="center">
+      <Clock Time={time} />
     </div>
   );
-}
+};
 
 export default App;
