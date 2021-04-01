@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# colour-clock-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- https://shields.io -->
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+[![Progressive Web Apps](https://img.shields.io/badge/-PWA-blueviolet)](https://gonza7aav.github.io/colour-clock-app/)
+![GitHub repository size](https://img.shields.io/github/repo-size/gonza7aav/colour-clock-app?label=size&color=informational)
+![Repository license](https://img.shields.io/github/license/gonza7aav/colour-clock-app?color=informational)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- summary -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A simple clock made to introduce myself into **React**, **PWA** and the deployment in **Github Pages**
 
-### `yarn test`
+## 💡 Motivation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Almost 3 years back, I have made this little clock in vanilla **JavaScript**. Once finished, I archived it in a folder... until now. I am starting in **React** and, why not recreating that colourful clock? At this moment, I wouldn't accept saving it again only on my pc, so I decided to host it with **Github Pages**.
 
-### `yarn build`
+Listening to some talks about **PWA**, I finally add the ability to install this web app on your device! After all, I just wanted to put this knowledge into practice
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚧 Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- _[Yarn](https://yarnpkg.com/)_
+- _[Git](https://git-scm.com/)_ (optional)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Install
 
-### `yarn eject`
+1. Download this repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   If you have _Git_, you can clone it with:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```console
+   git clone https://github.com/gonza7aav/colour-clock-app.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install the dependencies with:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```console
+   yarn intall
+   ```
 
-## Learn More
+## 🚀 Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In the project directory, you can:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Run the app in the development mode:
 
-### Code Splitting
+  ```console
+  yarn start
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  Open `http://localhost:3000` to view it in the browser.
 
-### Analyzing the Bundle Size
+  The page will reload if you make edits. You will also see any lint errors in the console.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Build the app for production to the `build` folder:
 
-### Making a Progressive Web App
+  ```console
+  yarn build
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  It correctly bundles **React** in production mode and optimizes the build for the best performance.
 
-### Advanced Configuration
+  The build is minified and the filenames include the hashes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  The app is ready to be deployed!
 
-### Deployment
+- Run the app in the optimized production mode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  ```console
+  npx serve -s build
+  ```
 
-### `yarn build` fails to minify
+  Open `http://localhost:5000` to view it in the browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Deploy the app in GitHub
+
+  ```console
+  yarn deploy
+  ```
+
+  After this you will see the page in `https://<username>.github.io/colour-clock-app/`
+
+## 📝 License
+
+<!-- https://choosealicense.com/ -->
+
+Copyright © 2021 _Aguirre Gonzalo Adolfo_.
+This project is _[MIT](LICENSE)_ licensed.
+
+---
+
+<div align="center">
+Developed with ❤️ in Argentina 🇦🇷
+</div>
