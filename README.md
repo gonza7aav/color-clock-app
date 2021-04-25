@@ -1,12 +1,12 @@
-# colour-clock-app
+# colour-clock
 
 <!-- https://shields.io -->
 
 <div align="center">
 
-[![Progressive Web Apps](https://img.shields.io/badge/-PWA-blueviolet)](https://gonza7aav.github.io/colour-clock-app/)
-![GitHub repository size](https://img.shields.io/github/repo-size/gonza7aav/colour-clock-app?label=size&color=informational)
-![Repository license](https://img.shields.io/github/license/gonza7aav/colour-clock-app?color=informational)
+[![Progressive Web Apps](https://img.shields.io/badge/-PWA-blueviolet)](https://gonza7aav.github.io/colour-clock/)
+![GitHub repository size](https://img.shields.io/github/repo-size/gonza7aav/colour-clock?label=size&color=informational)
+![Repository license](https://img.shields.io/github/license/gonza7aav/colour-clock?color=informational)
 
 </div>
 
@@ -16,7 +16,7 @@ A simple clock made to introduce myself into **React**, **PWA** and the deployme
 
 ## 💡 Motivation
 
-Almost 3 years back, I have made [this little clock](https://gonza7aav.github.io/colour-clock-app/original) in vanilla **JavaScript**. Once finished, I archived it in a folder... until now. I am starting in **React** and, why not recreating that colourful clock? At this moment, I wouldn't accept saving it again only on my pc, so I decided to host it with **Github Pages**.
+Almost 3 years back, I have made [this little clock](https://gonza7aav.github.io/colour-clock/original) in vanilla **JavaScript**. Once finished, I archived it in a folder... until now. I am starting in **React** and, why not recreating that colourful clock? At this moment, I wouldn't accept saving it again only on my pc, so I decided to host it with **Github Pages**.
 
 Listening to some talks about **PWA**, I finally add the ability to install this web app on your device! After all, I just wanted to put this knowledge into practice
 
@@ -32,7 +32,7 @@ Listening to some talks about **PWA**, I finally add the ability to install this
    If you have _Git_, you can clone it with:
 
    ```console
-   git clone https://github.com/gonza7aav/colour-clock-app.git
+   git clone https://github.com/gonza7aav/colour-clock.git
    ```
 
 2. Install the dependencies with:
@@ -81,7 +81,7 @@ In the project directory, you can:
   yarn deploy
   ```
 
-  After this you will see the page in `https://<username>.github.io/colour-clock-app/`
+  After this you will see the page in `https://<username>.github.io/colour-clock/`
 
 ## 📝 License
 
