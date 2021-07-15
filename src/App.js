@@ -1,7 +1,8 @@
-import { useState, useEffect } from "react";
-import Clock from "./components/Clock";
+import { useState, useEffect } from 'react';
+import Clock from './components/Clock';
 
-const getTime = (date = new Date()) => {
+const getTime = () => {
+  let date = new Date();
   return {
     hours: date.getHours(),
     minutes: date.getMinutes(),
@@ -31,7 +32,7 @@ const App = () => {
     let now = new Date();
     let ms = now.getMilliseconds();
 
-    // with this the interval start at 0 milliseconds
+    // with this the interval start at 0 milliseconds aprox.
     setTimeout(() => {
       setInterval(() => {
         update();
@@ -40,7 +41,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="center">
+    <div className='center'>
       <Clock Time={time} />
     </div>
   );
