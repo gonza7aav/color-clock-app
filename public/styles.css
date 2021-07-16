@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
-
 body {
+  /* global properties */
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  color: #fafafa;
+
   /* to use all the page */
   width: 100vw;
   height: 100vh;
@@ -15,17 +19,6 @@ body {
 
   /* fade effect */
   transition: background-color 500ms ease-in-out;
-
-  /* global properties */
-  font-family: "Roboto Mono", monospace;
-  font-style: normal;
-  font-weight: 400;
-  color: #fafafa;
-}
-
-.Clock {
-  padding: 0.25rem 0.5rem;
-  font-size: 10vw;
 }
 
 .center {
@@ -50,12 +43,6 @@ body {
 
 .message-box p {
   font-size: 0.75rem;
-}
-
-@media (min-width: 425px) {
-  .message-box {
-    max-width: 35ch;
-  }
 }
 
 @media (min-width: 520px) {
