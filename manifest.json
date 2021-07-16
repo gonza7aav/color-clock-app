@@ -14,7 +14,7 @@
       "purpose": "maskable any"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#333333",
   "background_color": "#333333"

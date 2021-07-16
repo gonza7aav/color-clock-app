@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/colour-clock-app/static/js/main.972f299f.chunk.js",
-    "main.js.map": "/colour-clock-app/static/js/main.972f299f.chunk.js.map",
-    "runtime-main.js": "/colour-clock-app/static/js/runtime-main.9097bb72.js",
-    "runtime-main.js.map": "/colour-clock-app/static/js/runtime-main.9097bb72.js.map",
-    "static/js/2.dec59514.chunk.js": "/colour-clock-app/static/js/2.dec59514.chunk.js",
-    "static/js/2.dec59514.chunk.js.map": "/colour-clock-app/static/js/2.dec59514.chunk.js.map",
-    "index.html": "/colour-clock-app/index.html",
-    "service-worker.js": "/colour-clock-app/service-worker.js",
-    "service-worker.js.map": "/colour-clock-app/service-worker.js.map",
-    "static/js/2.dec59514.chunk.js.LICENSE.txt": "/colour-clock-app/static/js/2.dec59514.chunk.js.LICENSE.txt"
+    "main.js": "/colour-clock/static/js/main.7b6ee762.chunk.js",
+    "main.js.map": "/colour-clock/static/js/main.7b6ee762.chunk.js.map",
+    "runtime-main.js": "/colour-clock/static/js/runtime-main.e159d92b.js",
+    "runtime-main.js.map": "/colour-clock/static/js/runtime-main.e159d92b.js.map",
+    "static/js/2.8b30186b.chunk.js": "/colour-clock/static/js/2.8b30186b.chunk.js",
+    "static/js/2.8b30186b.chunk.js.map": "/colour-clock/static/js/2.8b30186b.chunk.js.map",
+    "index.html": "/colour-clock/index.html",
+    "service-worker.js": "/colour-clock/service-worker.js",
+    "service-worker.js.map": "/colour-clock/service-worker.js.map",
+    "static/js/2.8b30186b.chunk.js.LICENSE.txt": "/colour-clock/static/js/2.8b30186b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9097bb72.js",
-    "static/js/2.dec59514.chunk.js",
-    "static/js/main.972f299f.chunk.js"
+    "static/js/runtime-main.e159d92b.js",
+    "static/js/2.8b30186b.chunk.js",
+    "static/js/main.7b6ee762.chunk.js"
   ]
 }
