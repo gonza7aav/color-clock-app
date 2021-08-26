@@ -12,15 +12,6 @@
 
 A simple clock made to introduce myself into **React**, **PWA** and the deployment in **Github Pages**
 
-## 📑 Table of Contents
-
-- [💡 Motivation](#💡-Motivation)
-- [✨ Demo](#✨-Demo)
-- [🚧 Prerequisites](#🚧-Prerequisites)
-- [🛠️ Install](#🛠️-Install)
-- [🚀 Usage](#🚀-Usage)
-- [📝 License](#📝-License)
-
 ## 💡 Motivation
 
 Almost 3 years back, I have made this little clock in vanilla **JavaScript**. Once finished, I archived it in a folder... until now. I am starting in **React** and, why not recreating that colourful clock? At this moment, I wouldn't accept saving it again only on my pc, so I decided to host it with **Github Pages**.
