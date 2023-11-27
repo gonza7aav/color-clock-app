@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#333333" />
 
-    <!-- Added with pwa-asset-generator @github.com/onderceylan/pwa-asset-generator -->
+    <!-- Added with pwa-asset-generator -->
     <link
       rel="icon"
       type="image/png"
@@ -158,15 +158,13 @@
       media="(prefers-color-scheme: dark) and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
     />
 
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>Colour Clock</title>
   </head>
   <body>
+    <div id="root" />
+
     <noscript>
       <div class="message-box center">
         <h1>JavaScript Required</h1>
@@ -174,7 +172,5 @@
         <p>You need to enable JavaScript to run this app</p>
       </div>
     </noscript>
-
-    <div id="root" />
   </body>
 </html>

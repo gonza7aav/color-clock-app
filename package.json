@@ -1,6 +1,6 @@
 {
   "name": "colour-clock",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "homepage": "https://gonza7aav.github.io/colour-clock",
   "license": "MIT",
@@ -11,18 +11,18 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "workbox-cacheable-response": "^5.1.3",
-    "workbox-expiration": "^5.1.3",
-    "workbox-precaching": "^5.1.3",
-    "workbox-routing": "^5.1.3",
-    "workbox-strategies": "^5.1.3"
+    "gh-pages": "^6.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "workbox-cacheable-response": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0"
   },
   "devDependencies": {
-    "pwa-asset-generator": "^4.1.1"
+    "pwa-asset-generator": "^6.3.1"
   },
   "browserslist": {
     "production": [

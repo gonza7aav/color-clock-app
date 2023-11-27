@@ -33,7 +33,7 @@ Listening to some talks about **PWA**, I finally add the ability to install this
 2. Install the dependencies
 
    ```console
-   yarn intall
+   yarn install
    ```
 
 ## 🚀 Usage

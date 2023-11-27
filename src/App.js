@@ -1,31 +1,13 @@
 import { useState, useEffect } from 'react';
 import Clock from './components/Clock';
 
-const getTime = () => {
-  let date = new Date();
-  return {
-    hours: date.getHours(),
-    minutes: date.getMinutes(),
-    seconds: date.getSeconds(),
-    // milliseconds: date.getMilliseconds(),
-  };
-};
-
 const App = () => {
   const [time, setTime] = useState(getTime());
 
-  const changeBackground = ({ red, green, blue }) => {
-    document.body.style.backgroundColor = `rgb(${red},${green},${blue})`;
-  };
-
   const updateTime = () => {
-    let now = getTime();
+    const now = getTime();
     setTime(now);
-    changeBackground({
-      red: now.hours,
-      green: now.minutes,
-      blue: now.seconds,
-    });
+    document.body.style.backgroundColor = `rgb(${now.hours},${now.minutes},${now.seconds})`;
   };
 
   useEffect(() => {
@@ -33,16 +15,13 @@ const App = () => {
     updateTime();
 
     // the timeout will be executed in the beginning of the next second
-    let now = new Date();
-    let ms = now.getMilliseconds();
+    const now = new Date();
     setTimeout(() => {
       updateTime();
 
       // the interval will be executed every second passed
-      setInterval(() => {
-        updateTime();
-      }, 1000);
-    }, 1000 - ms);
+      setInterval(updateTime, 1000);
+    }, 1000 - now.getMilliseconds());
   }, []);
 
   return (
@@ -50,6 +29,16 @@ const App = () => {
       <Clock time={time} />
     </div>
   );
+};
+
+const getTime = () => {
+  const now = new Date();
+
+  return {
+    hours: now.getHours(),
+    minutes: now.getMinutes(),
+    seconds: now.getSeconds(),
+  };
 };
 
 export default App;
