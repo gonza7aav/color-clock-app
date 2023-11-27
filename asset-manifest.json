@@ -1,19 +1,11 @@
 {
   "files": {
-    "main.js": "/colour-clock/static/js/main.7b6ee762.chunk.js",
-    "main.js.map": "/colour-clock/static/js/main.7b6ee762.chunk.js.map",
-    "runtime-main.js": "/colour-clock/static/js/runtime-main.e159d92b.js",
-    "runtime-main.js.map": "/colour-clock/static/js/runtime-main.e159d92b.js.map",
-    "static/js/2.8b30186b.chunk.js": "/colour-clock/static/js/2.8b30186b.chunk.js",
-    "static/js/2.8b30186b.chunk.js.map": "/colour-clock/static/js/2.8b30186b.chunk.js.map",
-    "index.html": "/colour-clock/index.html",
+    "main.js": "/colour-clock/static/js/main.70e616f8.js",
     "service-worker.js": "/colour-clock/service-worker.js",
-    "service-worker.js.map": "/colour-clock/service-worker.js.map",
-    "static/js/2.8b30186b.chunk.js.LICENSE.txt": "/colour-clock/static/js/2.8b30186b.chunk.js.LICENSE.txt"
+    "index.html": "/colour-clock/index.html",
+    "main.70e616f8.js.map": "/colour-clock/static/js/main.70e616f8.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e159d92b.js",
-    "static/js/2.8b30186b.chunk.js",
-    "static/js/main.7b6ee762.chunk.js"
+    "static/js/main.70e616f8.js"
   ]
 }
